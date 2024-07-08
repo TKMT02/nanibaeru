@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日何食ベル ～あなたのご飯をチェックアウト～</title>
+    <meta name="description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/destroy.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/toppage.css">
+    <link rel="stylesheet" href="css/anime.css">
+    <script src="https://kit.fontawesome.com/ec4cc7b1ae.js" crossorigin="anonymous"></script>
+    <script src="js/toppage.js" defer></script>
+    <!-- OG Tags -->
+    <head prefix="og: http://ogp.me/ns#">
+    <meta property="og:url" content="https://tkmt-takashi.main.jp/nanitaberu/" />
+    <meta property="og:type" content=" ページの種類" />
+    <meta property="og:title" content="今日何食ベル ～あなたのご飯をチェックアウト～" />
+    <meta property="og:description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください" />
+    <meta property="og:site_name" content="今日何食ベル" />
+    <meta property="og:image" content="https://tkmt-takashi.main.jp/nanitaberu/image/main_visual.png" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WS0PMFRBL4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WS0PMFRBL4');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <h1 class="fadeIn" id="logo_title">
+                <img src="./images/logo.png" alt="今日何食ベル">
+            </h1>
+            <p class="title_text fadeIn">今の気分で食事メニューを診断できるサイト</p>
+            <div class="fadeUp" id="menu-btn">
+                <input type="button" id="top_start" value="診断を開始" onclick="start()">
+                <input type="button" id="top_last_page" value="前回を表示" onclick="last_page()">
+            </div>
+
+            <div  class="fadeInModal" id="tp_modal">
+                <div id="tp_modal_contents">
+                    <div class="tp_modal_closebtn"></div>
+                    <img src="images/error.png" alt="前回のメニュー" id="tp_modal_pic">
+                    <h2 id="tp_modal_title"></h2>
+                    <p id="tp_modal_text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer_text">
+            <small>🄫 yobirin 2023</small>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Boku2-Regular';/*フォント名日本語OK*/
+    src: url('../font/Boku2-Regular.woff') format('woff');   /*フォントファイルパス*/
+}
+
+
+/*
+//  クラス名等は、接続は基本「アンダーバー(_)」
+//  pictureは「pic」
+*/
+
+*{
+    /*フォントを選ぶ*/
+    font-family: 'Boku2-Regular';
+    overflow: hidden;   /*スクロール化無効*/
+}
+
+/*===============================================
+/
+/       ルート情報ファイル
+/
+================================================*/
+
+:root{
+    --main-text: #C12E00;
+    --sub-text: #761E03;
+    --btn-bg: #FFB72C;
+}
+
+html{
+    z-index: 1;
+    background: url("../images/bg.webp");
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*===============================================
+/
+/       フッター
+/
+================================================*/
+
+#footer img{
+    z-index: -1;
+    max-width: 180px;
+    width: 14vh;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);     
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>今日何食ベル ～あなたのご飯をチェックアウト～</title>
+        <meta name="description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/destroy.css"/>
+        <link rel="stylesheet" href="css/anime.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flow.css">
+        <script src="https://kit.fontawesome.com/a9e8ce8a3d.js" crossorigin="anonymous"></script>
+        <script src="js/variable.js" defer></script>
+        <script src="js/flow.js" defer></script>
+        <!-- OG Tags -->
+        <head prefix="og: http://ogp.me/ns#">
+        <meta property="og:url" content="https://tkmt-takashi.main.jp/nanitaberu/" />
+        <meta property="og:type" content=" ページの種類" />
+        <meta property="og:title" content="今日何食ベル ～あなたのご飯をチェックアウト～" />
+        <meta property="og:description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください" />
+        <meta property="og:site_name" content="今日何食ベル" />
+        <meta property="og:image" content="https://tkmt-takashi.main.jp/nanitaberu/image/main_visual.png" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WS0PMFRBL4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-WS0PMFRBL4');
+        </script>
+    </head>
+<body>
+    <!-------------ひとつ前に戻る、パス表示------------>
+    <header class="fadeInModal">
+        <div id="back">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <ul id="Path">
+            <li class="Path_1"></li>
+            <li class="Path_2"></li>
+            <li class="Path_3"></li>
+            <li class="Path_4"></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <!--------------Q.1---------------------->
+        <div class="issue fadeUp">
+            <!-------------問題文------------>
+            <div id="issue">
+                <h1 id="issue_text">
+                    <span id="issue_num">Q.01</span><br>
+                    <span id="issue_question">どんなジャンルがいいかな？</span>
+                </h1>
+            </div>
+            <div class="issue_select">
+                <input type="button" id="issue_btn_1" value ="和風" onclick="Question(value)">
+                <input type="button" id="issue_btn_2" value ="洋風" onclick="Question(value)">
+                <input type="button" class="A" id="issue_btn_3" value ="中華風" onclick="Question(value)">
+            </div>    
+        </div>
+
+        <!--------------    RESULT  ---------------------->
+        <div class="result hidden">
+            <!-------------問題文------------>
+            <div class="flow_result">
+                <h1>結果はどうなったかな？</h1>
+            </div>
+            <div id="result">
+                Go<br>On
+            </div>
+        </div>
+    </div> 
+    <!-------------フッター------------>
+    <footer>
+        <div id="footer">
+            <!-- <img src="images/question.svg" alt="question" class="lv1"> -->
+            <img src="images/0per.svg" alt="0%" class="underImage">
+        </div>
+    </footer>
+</body>
+</html>

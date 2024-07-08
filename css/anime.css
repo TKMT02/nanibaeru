@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*==================================================
+ふわっ
+===================================*/
+
+.fadeUp {
+    animation-name: fadeUpAnime;/*アニメーションの定義名*/
+    animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+    animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+    opacity:0;
+}
+
+/*アニメーションの開始から終了までを指定する*/
+@keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeIn {
+    animation-name:fadeInAnime; 
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+@keyframes fadeInAnime {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInModal {
+    animation-name:fadeInModal; 
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+@keyframes fadeInModal {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}

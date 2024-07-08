@@ -1,0 +1,295 @@
+{
+    "udon":[
+            {
+                "title" : "うどん",
+                "image" : "images/cook/udon.webp",
+                "lore" : "日本の人気麺料理、太い麺と出汁の組み合わせ。"
+            }],
+    "soba":[
+            {
+                "title" : "そば",
+                "image" : "images/cook/soba.webp",
+                "lore" : "細くて風味豊かな日本の伝統的な麺料理。"
+            }],
+    "ramen":[
+            {
+                "title" : "ラーメン",
+                "image" : "images/cook/ramen.webp",
+                "lore" : "日本発祥の人気麺料理、濃厚なスープとコシのある麺。"
+            }],
+    "pasta":[
+            {
+                "title" : "パスタ",
+                "image" : "images/cook/pasta.webp",
+                "lore" : "イタリア発祥の多彩な形状とソースが組み合わさる麺料理。"
+            }],
+    "curryrice":[
+        {
+            "title" : "カレーライス",
+            "image" : "images/cook/curryrice.webp",
+            "lore" : "スパイスと旨味が調和する、カラフルで香り高い料理。"
+        }],
+    "omurice":[
+            {
+                "title" : "オムライス",
+                "image" : "images/cook/omurice.webp",
+                "lore" : "ふんわり卵で包まれた、ケチャップが香るご飯料理。"
+            }],
+    "chaahan":[
+            {
+                "title" : "チャーハン",
+                "image" : "images/cook/chaahan.webp",
+                "lore" : "炒めたご飯と具材が絶妙な、中華料理の定番。"
+            }],
+    "sushi":[
+            {
+                "title" : "寿司",
+                "image" : "images/cook/sushi.webp",
+                "lore" : "新鮮な海の恵み、鮮やかな彩り。舌と心を満たす、極上の寿司体験。"
+            }],
+    "katsudon":[
+        {
+            "title" : "カツ丼",
+            "image" : "images/cook/katsudon.webp",
+            "lore" : "サクサク衣に包まれたジューシーな豚肉が、ふわっとした卵と共にご飯の上に。"
+        }],
+    "yakiniku":[
+            {
+                "title" : "焼肉",
+                "image" : "images/cook/yakiniku.webp",
+                "lore" : "香り高い炭火の風味と共に、贅沢な食体験をお届けします。"
+            }],
+    "gyudon":[
+            {
+                "title" : "牛丼",
+                "image" : "images/cook/gyudon.webp",
+                "lore" : "牛肉と玉ねぎを甘辛いタレで煮込み、ご飯の上に乗せた日本の人気料理。"
+            }],
+    "tendon":[
+            {
+                "title" : "天丼",
+                "image" : "images/cook/tendon.webp",
+                "lore" : "天ぷら（海老や野菜など）をご飯の上に盛り、甘いタレをかけた日本の人気料理。"
+            }],
+    "oyakodon":[
+        {
+            "title" : "親子丼",
+            "image" : "images/cook/oyakodon.webp",
+            "lore" : "ふんわりとした卵と共にご飯の上に盛ります。濃厚な風味と深い満足感をご堪能ください。"
+        }],
+    "hanbarg":[
+            {
+                "title" : "ハンバーグ",
+                "image" : "images/cook/hanbarg.webp",
+                "lore" : "しっとりとした中にジューシーな食感が特徴。"
+            }],
+    "steak":[
+            {
+                "title" : "ステーキ",
+                "image" : "images/cook/steak.webp",
+                "lore" : "高品質な肉を厚くカットし、高温で焼いた肉料理。外はカリッと、中はジューシーな食感が楽しめる。"
+            }],
+    "konamono1":[
+            {
+                "title" : "お好み焼き",
+                "image" : "images/cook/konamono.webp",
+                "lore" : "海鮮や肉などを生地に混ぜて平らに焼き上げた日本の屋台料理"
+            }],
+    "konamono2":[
+        {
+            "title" : "たこ焼き",
+            "image" : "images/cook/konamono2.webp",
+            "lore" : "たこやネギなどを生地に混ぜて球状に焼き上げた日本の屋台料理"
+        }],
+    "yakitori":[
+        {
+            "title" : "焼き鳥",
+            "image" : "images/cook/yakitori.webp",
+            "lore" : "炭火で焼いた日本の屋台料理。様々な部位やタレで味わえる人気の串焼き。"
+        }],
+    "frichick":[
+            {
+                "title" : "フライドチキン",
+                "image" : "images/cook/frichick.webp",
+                "lore" : "鶏肉を衣で包み、油で揚げた料理。外はカリッと、中はジューシーな食感が特徴。"
+            }],
+    "nabe":[
+            {
+                "title" : "鍋",
+                "image" : "images/cook/nabe.webp",
+                "lore" : "熱い鍋の中でシンプルな味付けで楽しむ、日本の冬の定番料理。"
+            }],
+    "syabu":[
+            {
+                "title" : "しゃぶしゃぶ",
+                "image" : "images/cook/syabu.webp",
+                "lore" : "薄く切った肉や野菜を湯にくぐらせて食べる日本の料理。"
+            }],
+    "hinabe":[
+        {
+            "title" : "火鍋",
+            "image" : "images/cook/hinabe.webp",
+            "lore" : "スープの中で肉、野菜、海鮮などを茹でる中国の料理。辛いスープやマイルドなスープなど様々な味が楽しめる。"
+        }],
+    "kaisendon":[
+            {
+                "title" : "海鮮丼",
+                "image" : "images/cook/kaisendon.webp",
+                "lore" : "新鮮な刺身や海の幸をご飯の上に盛った日本の料理。色とりどりの海の恵みが美しく、豊かな味わいを楽しめる。"
+            }],
+    "china":[
+            {
+                "title" : "中華料理",
+                "image" : "images/cook/china.webp",
+                "lore" : "炒め物、揚げ物、煮込みなど多彩な料理があり、香辛料や醤油、豆板醤などで味を引き立てる。"
+            }],
+    "french":[
+            {
+                "title" : "フレンチトースト",
+                "image" : "images/cook/french.webp",
+                "lore" : "シンプルながら甘くてふんわりした食感が特徴。"
+            }],
+    "pizza":[
+        {
+            "title" : "ピザ",
+            "image" : "images/cook/pizza.webp",
+            "lore" : "生地にトマトソースやチーズを塗り、様々な具材をトッピングしたイタリア発祥の料理。"
+        }],
+    "hamber":[
+        {
+            "title" : "ハンバーガー",
+            "image" : "images/cook/hamber.webp",
+            "lore" : "牛肉のパティをバンズと呼ばれるパンに挟んだ食べ物。"
+        }],
+        
+    "sioramen":[
+            {
+                "title" : "塩ラーメン",
+                "image" : "images/cook/sioramen.webp",
+                "lore" : "塩味のスープにコシのあるラーメン。"
+            }],
+    "tantanmen":[
+            {
+                "title" : "坦々麺",
+                "image" : "images/cook/tantanmen.webp",
+                "lore" : "ピリ辛な花椒ソースで絡めた中太麺。"
+            }],
+    "yakizakanateisyoku":[
+            {
+                "title" : "焼き魚定食",
+                "image" : "images/cook/yakizakanateisyoku.webp",
+                "lore" : "焼かれた魚、白ご飯、おかずがセット。"
+            }],
+    "onigiri":[
+            {
+                "title" : "おにぎり",
+                "image" : "images/cook/onigiri.webp",
+                "lore" : "ご飯に具を包み、手軽に持ち運べる日本の手作りおかず。"
+            }],
+    "rizotto":[
+            {
+                "title" : "リゾット",
+                "image" : "images/cook/rizotto.webp",
+                "lore" : "アルボリオ米でとろみをつけたイタリア風リゾット。"
+            }],
+    "paeria":[
+            {
+                "title" : "パエリヤ",
+                "image" : "images/cook/paeria.webp",
+                "lore" : "スペインの伝統的な料理。米と具材を鉄鍋で炊き上げ、香り豊かな一皿。"
+            }],
+    "takosu":[
+            {
+                "title" : "タコス",
+                "image" : "images/cook/takosu.webp",
+                "lore" : "メキシコの料理。トルティーヤに具材を乗せ、香辛料で味付けたハンドヘルド料理。"
+            }],
+    "bibinba":[
+            {
+                "title" : "ビビンバ",
+                "image" : "images/cook/bibinba.webp",
+                "lore" : "韓国のご飯の上に、野菜、肉、卵を添えて混ぜて食べる料理"
+            }],
+    "tonkatu":[
+            {
+                "title" : "とんかつ",
+                "image" : "images/cook/tonkatu.webp",
+                "lore" : "豚肉をパン粉で揚げ、ソースを添えた日本の揚げ物料理。"
+            }],
+    "tenpura":[
+            {
+                "title" : "天ぷら",
+                "image" : "images/cook/tenpura.webp",
+                "lore" : "季節の野菜や海鮮を軽い衣で揚げ、天つゆで食べる日本の料理。"
+            }],
+    "syuumai":[
+            {
+                "title" : "焼売",
+                "image" : "images/cook/syuumai.webp",
+                "lore" : "小麦粉の皮で包まれた中華の肉餡の蒸し餃子。"
+            }],
+    "mabou":[
+            {
+                "title" : "麻婆豆腐",
+                "image" : "images/cook/mabou.webp",
+                "lore" : "中華料理の一つ。豆腐を辛い肉味噌で炒め、香辛料で風味豊かに仕上げた料理。"
+            }],
+    "pan":[
+            {
+                "title" : "パン",
+                "image" : "images/cook/pan.webp",
+                "lore" : "小麦粉、水、酵母で作った生地を焼いた、ふんわりとした食パン。"
+            }],
+    "kaisen":[
+            {
+                "title" : "海鮮",
+                "image" : "images/cook/kaisen.webp",
+                "lore" : "新鮮な魚介類。刺身、寿司、焼き魚など、多彩な調理法で楽しまれる。"
+            }],
+    "otyazuke":[
+            {
+                "title" : "お茶漬け",
+                "image" : "images/cook/otyazuke.webp",
+                "lore" : "ご飯の上に茶碗蒸しや具材をのせ、熱いお茶をかけて食べる、日本のシンプルな料理。"
+            }],
+
+    "tabehoudai":[
+            {
+                "title" : "食べ放題",
+                "image" : "images/cook/tabehoudai.webp",
+                "lore" : "固定の価格で、制限なく好きなだけ食べられる食事スタイル。"
+            }],
+
+    "sanndo":[
+            {
+                "title" : "サンドウィッチ",
+                "image" : "images/cook/sanndo.webp",
+                "lore" : "具材をパンで挟んだ手軽な食事。ハム、野菜、ソースが一般的。"
+            }],
+    "oden":[
+            {
+                "title" : "おでん",
+                "image" : "images/cook/oden.webp",
+                "lore" : "日本の冬季の煮込み料理。大根、こんにゃく、たまごなど、様々な食材が出汁で煮られる。"
+            }],
+    "nan":[
+            {
+                "title" : "ナン",
+                "image" : "images/cook/nan.webp",
+                "lore" : "イギリスやインド料理の一部。薄い生地を窯で焼いた、ふんわりとした平らなパン。"
+            }],
+    "pepparaisu":[
+            {
+                "title" : "ペッパーライス",
+                "image" : "images/cook/pepparaisu.webp",
+                "lore" : "ご飯と色々な具材をペッパーソースで炒めた料理。香り豊かなシンプルな味わい。"
+            }],
+    "kebabu":[
+            {
+                "title" : "ケバブ",
+                "image" : "images/cook/kebabu.webp",
+                "lore" : "中東発祥の料理。串刺しにした肉を焼き、パンやライスと一緒に提供される。"
+            }]
+}
+
+

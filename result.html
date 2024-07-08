@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>今日何食ベル ～あなたのご飯をチェックアウト～</title>
+        <meta name="description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/destroy.css"/>
+        <link rel="stylesheet" href="css/anime.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/result.css">
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script src="https://kit.fontawesome.com/a9e8ce8a3d.js" crossorigin="anonymous"></script>
+        <script src="js/pattern.js" defer></script>
+        <script src="js/result.js" defer></script>
+        <!-- OG Tags -->
+        <head prefix="og: http://ogp.me/ns#">
+        <meta property="og:url" content="https://tkmt-takashi.main.jp/nanitaberu/" />
+        <meta property="og:type" content=" ページの種類" />
+        <meta property="og:title" content="今日何食ベル ～あなたのご飯をチェックアウト～" />
+        <meta property="og:description" content="あなたの食べたいご飯を質問形式でランダムで選ぶことができます。今日のご飯に困ったときに役立ちます！ぜひご使用ください" />
+        <meta property="og:site_name" content="今日何食ベル" />
+        <meta property="og:image" content="https://tkmt-takashi.main.jp/nanitaberu/image/main_visual.png" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WS0PMFRBL4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-WS0PMFRBL4');
+        </script>
+    </head>
+<body>
+    <!--            ひとつ前に戻る          -->
+    <header>
+        <div class="header">
+            <i id="result_home" class="fa-solid fa-house" style="color: #761e03;"></i>
+            <i id="result_tag" class="fa-solid fa-tags" style="color: #761e03;"></i>
+            <i id="result_search" class="fa-solid fa-magnifying-glass" style="color: #761e03;"></i>
+        </div>
+    </header>
+    <div id="container" class="loader">
+        <h1 id="result_title">診断エラー</h1>
+        <h2>
+            <img src="images/error.png" alt="診断結果画像" id="result_pic">
+        </h2>
+
+        <div class="resultbtn_wrap">
+            <div id="result_reroll">
+                <span>結果をリロールする</span>
+                <i id="result_reroll_icon" class="fa-solid fa-rotate-right" style="color: #761e03;"></i>
+            </div>
+
+            <i id="result_share_icon" class="fa-solid fa-share-nodes" style="color: #761e03;"></i>
+        </div>
+        
+        <p id="result_text">
+            申し訳ありません。希望されたメニューを診断できませんでした。再度お試しください。
+        </p>
+        <div class="modal_share">
+            <div class="modal_share_content">
+                <div class="share_modal_closebtn"></div>
+                <h3>結果をシェアしよう！</h3>
+                <ul class="modal_share_list">
+                    <li class="tweet"></li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram X-btn"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-regular fa-share-from-square X-btn"></i></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    <!----------------------モーダル---------------------->
+        <div id="r_modal">
+            <div id="r_modal_contents" class="close">
+                <div class="r_modal_closebtn"></div>
+                    <h1>含んでいるタグ</h1>
+                    <ul id="r_modal_tags"></ul>
+            </div>
+        </div>
+
+    </div>
+    
+    <!----------------------フッター---------------------->
+    <footer>
+        <div id="footer">
+            <img src="images/bikkuri.svg" alt="100%" id="100p">
+        </div>
+    </footer>
+</body>
+</html>

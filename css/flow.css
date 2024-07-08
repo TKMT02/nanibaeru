@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/*===============================================
+/
+/       ルート情報ファイル
+/
+================================================*/
+
+:root{
+    --main-text: #C12E00;
+    --sub-text: #761E03;
+    --btn-bg: #FFB72C;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/*===============================================
+/
+/       container max-widthを1200pxに設定
+/
+================================================*/
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    height: 75vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*===============================================
+/
+/       ヘッダー
+/
+================================================*/
+
+header{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+header #back{
+    padding-top: 20px;
+    font-size: 7.5vh;
+    margin: 0 auto 0 0; /* 左寄せ */
+    padding-left: 30px;
+    color: var(--sub-text);
+    cursor: pointer;
+}
+
+header #Path{
+    z-index: 99;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+}
+
+header ul li{
+    color: var(--sub-text);
+    font-size: 2.3vh;
+}
+
+
+/*===============================================
+/
+/       問題(issue,issue_text)
+/
+================================================*/
+
+
+
+#issue_num{
+    display: inline-block;
+    text-align: left;
+    font-size: 3vh;
+}
+
+
+#issue_text{
+    color: var(--sub-text);
+    font-size: 3.5vh;
+    margin-bottom: 3vh;
+}
+
+/*===============================================
+/
+/       選択
+/
+================================================*/
+
+.issue_select{
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.issue_select input[type="button"]{
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    height: 8vh;
+    margin: 4vh 0;
+    font-size: 3vh;
+    color: var(--sub-text);
+    background-color: var(--btn-bg);
+    box-shadow: 2px 3px 1px rgba(118,30,3, 0.7);
+    border-radius: 24px;
+}
+
+input[type=button]:hover{
+    box-shadow: none;
+    transform: translateY(3px);
+    color: var(--btn-bg);
+    background-color: var(--sub-text);
+}
+
+
+/*===============================================
+/
+/       リザルト画面のスタイル
+/
+================================================*/
+
+.flow_result{
+    font-size: min(6vw, 56px);
+    color: var(--sub-text);
+    margin-bottom: 40px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#result{
+    background-color: var(--btn-bg);
+    margin: 40px;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
+    word-wrap: break-word;    
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+    cursor: pointer;
+}
+
+#result:hover{
+    background-color: var(--main-text);
+    color: var(--btn-bg);
+    transition: 1s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (width-max: 580px) {
+    input[type=button]:hover{
+        box-shadow: none;
+        transform: translateY(3px);
+        color: var(--btn-bg);
+        background-color: var(--sub-text);
+    }
+}
